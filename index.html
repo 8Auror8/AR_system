@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Models</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+</head>
+<body style="margin: 0; overflow: hidden;">
+    <a-scene embedded arjs>
+        <!-- Alpha Dinosaur -->
+        <a-marker type="pattern" url="./patt/pattern-AlphaDinosaur.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/jwtg_alpha.html" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- Angel -->
+        <a-marker type="pattern" url="./patt/pattern-Angel.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/engel.html" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- BMW -->
+        <a-marker type="pattern" url="./patt/pattern-BMW.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/bmw.html" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- Love and Psyche -->
+        <a-marker type="pattern" url="./patt/pattern-LoveandPsyche.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/amor.html" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- McLaren -->
+        <a-marker type="pattern" url="./patt/pattern-McLaren.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/mclaren.html" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- Pumpkin -->
+        <a-marker type="pattern" url="./patt/pattern-Pumpkins.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/jack.html" scale="5 5 5" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- Summerside -->
+        <a-marker type="pattern" url="./patt/pattern-Summerside.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/summerside.html" scale="2 2 2" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- Venus -->
+        <a-marker type="pattern" url="./patt/Venus.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/venus.html" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <!-- Vulcan Dinosaur -->
+        <a-marker type="pattern" url="./patt/pattern-VulcanDinosaur.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/jwtg_vulcan.html" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 180 0"></a-entity>
+        </a-marker>
+
+        <!-- Wild Wild West -->
+        <a-marker type="pattern" url="./patt/pattern-Wildwildwest.patt">
+            <a-entity gltf-model="https://ar-objects-flame.vercel.app/wild.html" scale="3 3 3" position="0 0 0" rotation="0 0 0"></a-entity>
+        </a-marker>
+
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+</html>
